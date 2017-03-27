@@ -1,0 +1,318 @@
+/*********************
+BASIC STYLING
+**********************/
+body {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Avenir", sans-serif; }
+
+header {
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  z-index: 1; }
+
+h1 {
+  font-size: 2.467em;
+  margin: 0 5%; }
+  h1 a {
+    float: left;
+    padding: 25px 25px 0 0;
+    margin-left: 6%;
+    font-weight: bold; }
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  margin-top: 50px;
+  margin-bottom: 0.01%;
+  font-size: 4rem; }
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease;
+  text-transform: uppercase;
+  font-weight: lighter; }
+  a:hover {
+    text-decoration: none;
+    transition: all 0.5s ease;
+    color: #CACACC; }
+
+nav {
+  padding: 25px 0;
+  background-color: #000; }
+  nav li {
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 1em;
+    margin: 0; }
+
+.title {
+  color: blue;
+  padding: 20px 10% 0 64px;
+  display: inline;
+  float: left;
+  margin-right: 7.5%; }
+
+.menu {
+  margin-left: 10%; }
+
+.banner {
+  background: url("../images/hero-image.jpeg") no-repeat center/cover;
+  margin: 0  auto;
+  padding: 200px 0 0 0;
+  height: 750px;
+  width: 100%; }
+
+.logo {
+  margin: 0 auto;
+  width: 25%;
+  padding-top: 15%;
+  display: block; }
+
+.header-button {
+  height: 146px;
+  width: 146px;
+  margin: 2%; }
+
+.about {
+  font-size: 3rem;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 45%;
+  margin: 0 auto; }
+  .about p {
+    display: block;
+    text-align: left;
+    font-size: 1.867rem;
+    margin-bottom: 0; }
+
+.red-bar {
+  text-align: center;
+  margin: 0 auto;
+  width: 130px;
+  display: block; }
+
+.service-list {
+  margin: 0 auto;
+  font-family: "Gotham", sans-serif;
+  font-weight: lighter;
+  padding-left: 5%;
+  column-count: 2;
+  column-gap: 2em;
+  padding-top: 30px; }
+  .service-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+  .service-list li {
+    list-style-image: url("../images/bullet-arrow.png");
+    height: 45px;
+    padding: 0px 0px 0px 15px; }
+  .service-list p {
+    margin: 0;
+    font-size: 1.45rem; }
+
+.description p {
+  padding-top: 40px;
+  font-size: 1.5rem;
+  font-weight: bolder; }
+
+.about-electrician {
+  width: 34%;
+  position: absolute;
+  right: 0;
+  z-index: -1; }
+
+.description-images {
+  width: 100%; }
+
+.about-images {
+  width: 33%;
+  clip-path: inset(30px 0px 30px 0px); }
+  .about-images > :last-child {
+    padding: 0; }
+
+.gallery {
+  margin: 0 auto;
+  padding: 50px;
+  width: 70%; }
+
+.gallery-images {
+  width: 30%; }
+
+#overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: absolute;
+  top: 156em;
+  left: 0;
+  z-index: 2;
+  display: none;
+  padding: 3% 0; }
+  #overlay img {
+    margin-top: 1%; }
+  #overlay p {
+    color: white; }
+
+.contact-us {
+  font-size: 1.333rem; }
+  .contact-us p {
+    margin: 50px auto;
+    width: 75%; }
+  .contact-us a {
+    transition: all 0.5s ease;
+    text-transform: lowercase;
+    color: black; }
+    .contact-us a:hover {
+      text-decoration: none;
+      transition: all 0.5s ease;
+      color: #CACACC; }
+
+form {
+  max-width: 30%;
+  margin: 10px auto; }
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background: #F7F7F7;
+  border: none;
+  font-size: 14px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  color: #757575;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 5px; }
+
+textarea {
+  height: 125px; }
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #d2232a;
+  font-size: 18px;
+  font-family: "Gotham", sans-serif;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #ab1117;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin: 20px 15px; }
+
+footer {
+  margin: 50px 0 0 0;
+  color: white;
+  height: 300px;
+  width: 100%;
+  overflow: hidden; }
+
+.red-footer {
+  background-color: #D2232A;
+  width: 50%;
+  height: 300px;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  float: left; }
+  .red-footer p {
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 30px 0;
+    position: relative;
+    z-index: 2;
+    right: -18%; }
+  .red-footer h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: "Gotham", sans-serif;
+    font-stretch: condensed;
+    padding-top: 25px;
+    margin: 0;
+    z-index: 2;
+    position: relative;
+    right: -18%; }
+    .red-footer h3 span {
+      font-size: 1.5rem; }
+
+.black-footer {
+  background-color: black;
+  color: white;
+  height: 300px;
+  width: 50%;
+  position: relative;
+  display: inline-block;
+  float: left;
+  z-index: 1; }
+  .black-footer::before {
+    content: "";
+    background: #D2232A;
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    left: -100px;
+    top: -80px;
+    z-index: 3;
+    transform: rotate(15deg); }
+
+.registered-logo {
+  width: 100px;
+  position: absolute;
+  left: 18%;
+  top: 40%;
+  z-index: 3; }
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #D6D6D6; }
+
+/*********************
+RESPONSIVE STYLING
+**********************/
+@media only screen and (max-width: 2500px) {
+  .about-electrician {
+    max-width: 38%;
+    position: absolute;
+    bottom: -1200px;
+    right: 0;
+    z-index: -2; } }
+@media only screen and (max-width: 1366px) {
+  h1 a {
+    margin-left: 1%;
+    font-size: 2rem; }
+
+  .title {
+    margin-right: 1%;
+    padding-right: 5%; }
+
+  .logo {
+    width: 35%; }
+
+  .about {
+    width: 55%; }
+    .about p {
+      font-size: 1.5rem; }
+
+  .service-list p {
+    font-size: 1.2rem; }
+    .service-list p li {
+      width: 100%; }
+
+  .description p {
+    font-size: 1.3rem; } }

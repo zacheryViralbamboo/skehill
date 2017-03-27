@@ -1,0 +1,8 @@
+// Web fonts
+@mixin font-face($family, $file) {
+  @font-face {
+    font-family: $family;
+    src: url('#{$path-font}/#{$file}.ttf') format('truetype'),
+        url('#{$path-font}/#{$file}.otf') format('opentype');
+  }
+}

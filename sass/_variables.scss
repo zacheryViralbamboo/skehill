@@ -1,0 +1,12 @@
+// Font fallbacks.
+$font-sans-serif-fallback: Helvetica, Arial, sans-serif;
+$font-serif-fallback: "Times New Roman", Times, serif;
+
+// Font families.
+$font-Gotham-condensed-bold: 'Gotham Condensed Bold', $font-sans-serif-fallback;
+$font-gotham-condensed-medium: 'Gotham Condensed Medium', $font-sans-serif-fallback;
+$font-gothamnarrow-book: 'GothamNarrow-Book', $font-sans-serif-fallback;
+$font-gotham-bold: 'Gotham-Bold_21010', $font-sans-serif-fallback;
+
+
+$path-font: '../fonts';
